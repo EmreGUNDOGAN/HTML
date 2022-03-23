@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Lora&family=Open+Sans&family=Poppins:wght@200&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+}
+
+/* =========================
+Typography
+========================== */
+
+header {
+  font-family: "Oswald", sans-serif;
+}
+
+.section-header {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #e63946;
+}
+
+#navbar-header {
+  font-size: 1.75rem;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.navbar-list {
+  list-style-type: none;
+  border-bottom: 3px solid #a8dadc;
+}
+
+.section-par {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: #1d3557;
+}
+
+.nav-bar {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar ul {
+  margin: 0;
+}
+
+.color-text {
+  color: #e76f51;
+}
+
+/* =========================
+Layout
+========================== */
+
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #457b9d;
+  width: 17%;
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  overflow: scroll;
+}
+
+#navbar-header {
+  background-color: #1d3557;
+  color: white;
+}
+
+.navbar-list {
+  background-color: #457b9d;
+  color: white;
+  padding: 0 0;
+}
+
+#main-doc {
+  color: white;
+  width: 83%;
+  padding: 0 2em;
+  background-color: #f1faee;
+  position: absolute;
+  right: 0;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  padding: 1em;
+}
+
+.section-header {
+  padding: 1em;
+}
+
+li {
+  margin-left: 3em;
+}
+
+.navbar li {
+  margin-left: 0;
+}
+
+/* =========================
+Navigation
+========================== */
+
+.navbar-list a:hover,
+a:focus {
+  color: #1d3557;
+}
+
+.navbar-list a:active {
+  color: #e76f51;
+}
+
+/* =========================
+Media Query
+========================== */
+
+@media (max-width: 800px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .navbar {
+    display: flex;
+    width: 100vw;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  #main-doc {
+    width: 100%;
+    position: relative;
+  }
+
+  #navbar-header {
+    width: 100%;
+  }
+
+  .navbar-list {
+    border: none;
+  }
+
+  .nav-link {
+    padding: 0.5em;
+  }
+}
