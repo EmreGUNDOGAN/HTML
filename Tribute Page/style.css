@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Hubballi", cursive;
+}
+
+body {
+  margin: 0;
+  background-color: #e8cfa5;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #3c6478;
+  color: White;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 0.5em;
+}
+
+#title {
+  font-size: 4rem;
+  margin: 0;
+  padding-top: 0.4em;
+}
+
+header > p {
+  font-size: 1.5rem;
+}
+
+#image {
+  display: block;
+  max-width: 80%;
+}
+
+#img-div {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+  margin-top: 5em;
+  margin-bottom: 3em;
+  font-size: 1.3rem;
+}
+
+#img-caption {
+  margin-top: 1em;
+  font-size: 1.2em;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: #107896;
+  color: white;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  border-radius: 2%;
+}
+
+b {
+  color: black;
+}
+
+#tribute-info {
+  padding: 2em;
+}
+
+#tribute-info > h2 {
+  font-size: 2rem;
+}
+
+ul {
+  list-style-type: square;
+  text-align: left;
+  font-weight: 200px;
+  font-size: 1.2rem;
+}
+
+li {
+  margin-bottom: 1em;
+  line-height: 1.2em;
+}
+
+q {
+  font-size: 1.3rem;
+}
+
+footer {
+  margin-bottom: 3em;
+  margin-top: 3em;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: darkcyan;
+}
