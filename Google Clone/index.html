@@ -6,69 +6,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google</title>
     <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/927e516d7d.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- header -->
     <header class="landing-page-header">
       <ul class="nav-list">
-        <li class="nav-item"><a href="https://mail.google.com/mail/&ogbl" class="nav-link">Gmail</a></li>
-        <li class="nav-item"><a href="https://www.google.com.tr/imghp?hl=tr&ogbl" class="nav-link">Görseller</a></li>
-        <li class="nav-item"><a href="https://www.google.com.tr/intl/tr/about/products" class="nav-link" ><i class="fa fa-bars"></i></a></li>
-        <li class="account-icon nav-item"><a href="#" class="nav-link"><img class="account-img"  src="https://avatars.cloudflare.steamstatic.com/8f51addf89accb57db70087ecd8f4e491d575645_full.jpg" alt="user's photo"></a></li>
+        <li class="nav-item">
+          <a href="https://mail.google.com/mail/&ogbl" class="nav-link"
+            >Gmail</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="https://www.google.com.tr/imghp?hl=tr&ogbl" class="nav-link"
+            >Görseller</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            href="https://www.google.com.tr/intl/tr/about/products"
+            class="nav-link"
+            ><i class="fa fa-bars"></i
+          ></a>
+        </li>
+        <li class="account-icon nav-item">
+          <a href="#" class="nav-link"
+            ><img
+              class="account-img"
+              src="https://avatars.cloudflare.steamstatic.com/8f51addf89accb57db70087ecd8f4e491d575645_full.jpg"
+              alt="user's photo"
+          /></a>
+        </li>
       </ul>
     </header>
 
-    <!-- container -->
-    <div class="container">
-      <img class="logo" src="google.png" alt="google logo" />
+    <!-- sub-container -->
+    <div class="sub-container">
+      <div class="info-holder">
+        <img class="logo" src="googlelogo.png" alt="google logo" />
+        <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          <input class="text-area" type="text" />
+          <i class="fa-solid fa-keyboard"></i>
+        </div>
 
-      <input class="text-area" type="text"/>
+        <!-- submit-buttons -->
+        <div class="submit-buttons">
+          <input class="submit-btn" type="submit" value="Google'da Ara" />
+          <input
+            class="submit-btn"
+            type="submit"
+            value="Kendimi Şanslı Hissediyorum"
+          />
+        </div>
 
-
-<!-- submit-buttons -->
-    <div class="submit-buttons">
-      <input class="submit-btn" type="submit" value="Google'da Ara">
-      <input class="submit-btn" type="submit" value="Kendimi Şanslı Hissediyorum">
-    </div>
-
-    <!-- language text -->
-      <p class="language-text">Google'ı kullanabileceğiniz diğer diller: <span > <a href="#" class="language-selection"> English</a></span></p>
-
+        <!-- language text -->
+        <p class="language-text">
+          Google'ı kullanabileceğiniz diğer diller:
+          <span><a href="#" class="language-selection"> English</a></span>
+        </p>
+      </div>
     </div>
 
     <!-- footer -->
-    <footer class="landing-page-footer">
-      <div class="footer-left">
-        <div class="location">
-          <p class="current__location">Türkiye</p>
-        </div>
+    <footer>
+      <!-- info-left -->
 
-        <!-- info-left -->
+      <div class="location">
+        <p class="current__location">Türkiye</p>
+      </div>
+      <div class="footer-container">
         <div class="info-left">
-            <div class="info-right">
-                <ul class="footer-list">
-                    <li class="footer__link">Hakkında</li>
-                    <li class="footer__link">Reklam</li>
-                    <li class="footer__link">İşletme</li>
-                    <li class="footer__link">Arama nasıl çalışır</li>
-                </ul>
-        </div>
-      </div>
-
-      <!-- info-middle -->
-      <div class="info-middle">
-          <a class="footer__link carbon-text" href="https://sustainability.google/intl/tr/carbon-free/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=">2007'den bu yana karbon nötr</a>
-      </div>
-
-      <!-- info-right -->
-      <div class="info-right">
           <ul class="footer__list">
-              <li class="footer__link">Gizlilik</li>
-              <li class="footer__link">Şartlar</li>
-              <li class="footer__link">Ayarlar</li>
+            <li class="footer__item">
+              <a class="footer__link-left" href="#">Hakkında</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link-left" href="#">Reklam</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link-left" href="#">İşletme</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link-left" href="#">Arama nasıl çalışır</a>
+            </li>
           </ul>
+        </div>
+
+        <!-- info-middle -->
+        <div class="info-middle">
+          <a
+            class="footer__link carbon-text"
+            href="https://sustainability.google/intl/tr/carbon-free/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content="
+            >2007'den bu yana karbon nötr</a
+          >
+        </div>
+
+        <!-- info-right -->
+        <div class="info-right">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link-right" href="#">Gizlilik</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link-right" href="#">Şartlar</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link-right" href="#">Ayarlar</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
