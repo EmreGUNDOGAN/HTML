@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: rgba(32, 33, 36, 1);
+  --secondary-bg-color: #303134;
+  --primary-color: #999da2;
+  --secondary-color: #ffffff;
+  --languages-clr: ;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+/* Typography */
+
+.nav-item,
+.account-icon {
+  list-style-type: none;
+  color: var(--secondary-color);
+}
+
+.nav-item {
+  font-size: 0.8125rem;
+}
+
+.container {
+  font-size: 0.875rem;
+}
+
+.submit-btn {
+  color: var(--secondary-color);
+  background-color: var(--secondary-bg-color);
+}
+
+.language-selection {
+  font-size: 0.875rem;
+  color: #8ab4f8;
+  text-decoration: none;
+}
+
+.current__location,
+.language-text,
+.footer__link {
+  font-size: 0.875rem;
+  color: var(--primary-color);
+}
+
+.carbon-text {
+  text-decoration: none;
+}
+
+/* Layout */
+
