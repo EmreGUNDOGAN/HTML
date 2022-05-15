@@ -126,22 +126,22 @@ a,
 
 .text-area {
   color: var(--secondary-color);
-  background-color: var(--bg-color);
+  background-color: transparent;
   height: 2.125em;
   border: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 0 auto;
   width: 100%;
   height: 35px;
-  padding-right: 2.1em;
-  padding-left: 2.1em;
+  padding-right: 1em;
+  padding-left: 1em;
   border-radius: 50px;
 }
 
 .search-bar {
-  position: relative;
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: var(--bg-color);
   width: 55%;
   border: 1px solid #5f6368;
@@ -227,23 +227,20 @@ footer {
   padding: 0.4em 0.6em;
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .fa-magnifying-glass {
   color: var(--primary-color);
-  position: absolute;
+  padding-left: 1em;
   font-weight: 300;
   font-size: 12px;
-  top: 12px;
-  left: 13px;
 }
 
 .fa-microphone-lines {
   color: var(--primary-color);
-  position: absolute;
-  right: 15px;
-  bottom: 12px;
   font-size: 12px;
+  padding-right: 1em;
 }
 
 /* Pseudo */
@@ -264,9 +261,8 @@ header a:hover {
   border: 1px solid var(--primary-color);
 }
 
-.fa-magnifying-glass:hover,
-.search-bar:hover,
-input:hover {
+.text-area:hover,
+.search-bar:hover {
   background-color: var(--secondary-bg-color);
   border: 1px solid rgba(0, 0, 0, 0);
   outline: none;
@@ -275,7 +271,6 @@ input:hover {
 .fa-magnifying-glass:focus,
 .search-bar:focus,
 input:focus {
-  background-color: var(--secondary-bg-color);
   border: none;
   outline: none;
 }
