@@ -128,22 +128,25 @@ a {
 }
 
 .text-area {
+  color: var(--secondary-color);
   background-color: var(--bg-color);
   height: 2.125em;
   border: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  align-self: center;
   margin: 0 auto;
-  width: 50%;
+  width: 99%;
+  height: 35px;
+  padding-right: 2.1em;
+  padding-left: 2.1em;
+  border-radius: 50px;
 }
 
 .search-bar {
   position: relative;
   background-color: var(--bg-color);
   width: 55%;
-  padding-top: 10px;
   border: 1px solid #5f6368;
   border-radius: 50px;
   margin-bottom: 1.125em;
@@ -231,7 +234,7 @@ footer {
 .submit-btn {
   margin: 11px 4px;
   padding: 0.4em 0.6em;
-  border: 0px solid;
+  border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 3px;
 }
 .info-left {
@@ -242,18 +245,20 @@ footer {
   color: var(--primary-color);
   position: absolute;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 12px;
   top: 12px;
-  left: 15px;
+  left: 13px;
 }
 
 .fa-microphone-lines {
   color: var(--primary-color);
   position: absolute;
   right: 15px;
-  bottom: 11px;
-  font-size: 16px;
+  bottom: 12px;
+  font-size: 12px;
 }
+
+/* Pseudo */
 
 header a:focus {
   text-decoration: none;
@@ -273,8 +278,25 @@ footer a:hover {
   border: 0;
 }
 
+.submit-btn:focus,
 .submit-btn:hover {
   border: 1px solid var(--primary-color);
+}
+
+.fa-magnifying-glass:hover,
+.search-bar:hover,
+input:hover {
+  background-color: var(--secondary-bg-color);
+  border: 1px solid rgba(0, 0, 0, 0);
+  outline: none;
+}
+
+.fa-magnifying-glass:focus,
+.search-bar:focus,
+input:focus {
+  background-color: var(--secondary-bg-color);
+  border: none;
+  outline: none;
 }
 
 .language-selection:hover {
