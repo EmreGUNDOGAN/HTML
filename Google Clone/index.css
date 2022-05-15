@@ -247,7 +247,7 @@ footer {
   left: 15px;
 }
 
-.fa-microphone-lines{
+.fa-microphone-lines {
   color: var(--primary-color);
   position: absolute;
   right: 15px;
@@ -279,4 +279,13 @@ footer a:hover {
 
 .language-selection:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
