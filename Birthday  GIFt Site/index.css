@@ -15,6 +15,8 @@ img {
 
 body {
   margin: 0;
+  font-family: "Happy Monkey", cursive;
+  background-color: #dedede;
 }
 
 /* Typography */
@@ -39,7 +41,25 @@ body {
 /* Layout  */
 
 .container {
-  width: 30%;
+  width: 50%;
   margin-inline: auto;
   text-align: center;
 }
+
+.person-img {
+  border-radius: 50%;
+  border: 2px solid lime;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.present-section {
+  margin-bottom: 3em;
+}
+
+.present-box{
+    width: 40%;
+    margin: 0 auto;
+}
+
+/* pseudo */
