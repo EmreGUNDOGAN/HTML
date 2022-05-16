@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+:root {
+  --fs-title: 2.5rem;
+  --fs-msg: 1.5rem;
+}
+
+body {
+  margin: 0;
+}
+
+/* Typography */
+
+.main-title {
+  font-size: var(--fs-title);
+}
+
+.message {
+  font-size: var(--fs-msg);
+}
+
+.age {
+  font-size: 1.5rem;
+}
+
+.info-text,
+.birth-year {
+  font-size: 1.1rem;
+}
+
+/* Layout  */
+
+.container {
+  width: 30%;
+  margin-inline: auto;
+  text-align: center;
+}
